@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  font-family: cursive;
+}
+p {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+button, select {
+  color: purple;
+  font-family: cursive;
+  font-weight: bold;
+}
