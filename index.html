@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>B737 Horizontal Freeplay Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<script src="script.js"></script>
+</head>
+<body>
+<h1>B737 Horizontal Freeplay Calculator</h1>
+<p>B737 Type:</p>
+<select name="B737 Type" id="B737 Type">
+  <option value="null">--Select--</option>
+  <option value="NG">B737NG</option>
+  <option value="Max">B737 Max</option>
+</select>
+<p>D1 = <input type="number" id="D1"></input></p>
+<p>D2 = <input type="number" id="D2"></input></p>
+<p>D3 = <input type="number" id="D3"></input></p>
+<p>Weight = <input type="number" id="Weight" placeholder="B737 Max A/C Only"></input></p>
+<button onclick="calculate()" >Calculate</button>
+<div id="result-container"></div>
+</body>
+</html>
